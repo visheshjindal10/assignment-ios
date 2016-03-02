@@ -12,6 +12,7 @@
 		2E6521501C874C38003847C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E65214E1C874C38003847C8 /* Main.storyboard */; };
 		2E6521521C874C38003847C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6521511C874C38003847C8 /* Assets.xcassets */; };
 		2E6521551C874C38003847C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6521531C874C38003847C8 /* LaunchScreen.storyboard */; };
+		2E65215D1C875327003847C8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E65215C1C875327003847C8 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2E6521511C874C38003847C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E6521541C874C38003847C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E6521561C874C38003847C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E65215C1C875327003847C8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E65215D1C875327003847C8 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		2E65213E1C874C38003847C8 = {
 			isa = PBXGroup;
 			children = (
+				2E65215C1C875327003847C8 /* QuartzCore.framework */,
 				2E6521491C874C38003847C8 /* Assingment */,
 				2E6521481C874C38003847C8 /* Products */,
 			);
